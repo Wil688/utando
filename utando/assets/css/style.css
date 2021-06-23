@@ -1,0 +1,89 @@
+/* css*/
+body {
+    font-family: 'Cairo', sans-serif; 
+    color:#fff;
+    font-size: 0.8rem;
+}
+.rouge{
+    background-color: #a01616;
+}
+.bleu{
+    background-color: #293764;
+}
+.vert{
+    background-color: #055a05;
+}
+.jaune{
+    background-color: #97741c;
+}
+header {
+    background-color: #000;
+}
+.picto a img {
+    opacity: 0.7;   
+}
+.picto a:hover img {
+    opacity: 1;   
+}
+header h1 {
+    font-size: 18px; 
+    text-align: right;
+    padding: 5px;
+}
+.profile img {
+   max-width: 380px;
+   width:90%;
+}
+.infos-profile {
+    background:rgba(0, 0, 0, 0.3) ;
+}
+
+@media screen and (min-width: 600px) {
+    /*.picto {
+        padding:20px auto;
+    }*/
+  } /* end media*/
+
+  /* top menu */
+  ul.top-menu {
+      /*position: absolute;*/
+      top:4px;
+      right: 4px;
+      height: 40px;
+      width:80px;
+      margin: 0;
+      padding: 0;
+  }
+  ul.top-menu li {
+    display:inline-block;
+    width:35%;
+    margin:2% 5%;
+    
+}
+  /* photo profile*/
+  .photo-me  { 
+    position: absolute;
+    bottom:4px;
+    right:4px;
+    width: 90px; 
+    height: auto;
+  }
+@media screen and (max-width: 450px) {
+    
+    .logo  {
+        width:70%;
+        text-align: left;
+        margin:0;
+    }
+  } /* end media*/
+  @media screen and (max-width: 620px) {
+    .photo-me  { 
+        display:none;     
+      }
+  } /* end media*/
+
+  form label {
+      font-size: 17px;
+  }
+
+
